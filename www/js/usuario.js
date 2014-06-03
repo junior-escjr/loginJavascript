@@ -19,7 +19,8 @@ data = {
 	},
 
 	verificaUsuario: function(dados){
-		var t = dados.pass;
+		var user = dados.usuario;
+		var senha = dados.pass;
 		alert(t);
 	}
 
