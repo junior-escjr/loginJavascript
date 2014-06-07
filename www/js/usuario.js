@@ -8,12 +8,14 @@ data = {
 
 	valorUsuarioSenha: function(){
 
-		var dados = {
-		    usuario: $("#login-adm").val(),
-		    pass: $("#senha_adm").val()
-		  };
+		// var dados = {
+		//     usuario: $("#login-adm").val(),
+		//     pass: $("#senha_adm").val()
+		//   };
 
-		data.verificaUsuario(dados);
+		// data.verificaUsuario(dados);
+
+		alert("teste");
 		
 	},
 
