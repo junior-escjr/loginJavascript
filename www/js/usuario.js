@@ -2,18 +2,17 @@ data = {
 
 	init: function(){
 		var btn = document.getElementById("login");
-		document.addEventListener("deviceready", this.onDeviceReady);
+		btn.addEventListener("click", this.valorUsuarioSenha, false);
 		//this.verificaUsuario();
 	},
 
-	onDeviceReady: function(){
+	valorUsuarioSenha: function(){
 
-		// var dados = {
-		//     usuario: $("#login-adm").val(),
-		//     pass: $("#senha_adm").val()
-		//   };
-		// data.verificaUsuario(dados);
-		alert("funcionou");
+		var dados = {
+		    usuario: $("#login-adm").val(),
+		    pass: $("#senha_adm").val()
+		  };
+		data.verificaUsuario(dados);
 		
 	},
 
