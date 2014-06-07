@@ -2,7 +2,7 @@ data = {
 
 	init: function(){
 		var btn = document.getElementById("login");
-		document.addEventListener("deviceready", data.onDeviceReady, false);
+		document.addEventListener("deviceready", this.onDeviceReady);
 		//this.verificaUsuario();
 	},
 
