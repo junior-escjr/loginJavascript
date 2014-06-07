@@ -2,11 +2,11 @@ data = {
 
 	init: function(){
 		var btn = document.getElementById("login");
-		document.addEventListener("deviceready", this.valorUsuarioSenha, false);
+		document.addEventListener("deviceready", onDeviceReady, false);
 		//this.verificaUsuario();
 	},
 
-	valorUsuarioSenha: function(){
+	onDeviceReady: function(){
 
 		// var dados = {
 		//     usuario: $("#login-adm").val(),
