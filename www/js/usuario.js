@@ -1,18 +1,19 @@
 data = {
 
 	init: function(){
-		var btn = document.getElementById("login");
-		btn.addEventListener("click", this.valorUsuarioSenha, false);
+		//var btn = document.getElementById("login");
+		document.addEventListener("deviceready", data.valorUsuarioSenha, false);
 		//this.verificaUsuario();
 	},
 
 	valorUsuarioSenha: function(){
 
-		var dados = {
-		    usuario: $("#login-adm").val(),
-		    pass: $("#senha_adm").val()
-		  };
-		data.verificaUsuario(dados);
+		// var dados = {
+		//     usuario: $("#login-adm").val(),
+		//     pass: $("#senha_adm").val()
+		//   };
+		// this.verificaUsuario(dados);
+		alert("asdasdasd");
 		
 	},
 
